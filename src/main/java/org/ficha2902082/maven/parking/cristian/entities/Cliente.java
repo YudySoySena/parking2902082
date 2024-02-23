@@ -35,10 +35,22 @@ public class Cliente {
         this.misCarros.add(c);
     }
 
+    public Cliente(String nombre, String apellidos, TipoDocumento tipoDocumento, Long numeroDocumento, Long celular,
+            List<Carro> misCarros) {
+        this.nombre = nombre;
+        this.apellidos = apellidos;
+        this.tipoDocumento = tipoDocumento;
+        this.numeroDocumento = numeroDocumento;
+        this.celular = celular;
+        this.misCarros = new ArrayList<Carro>();
+    }
+
     //Sobrecarga de metodos:
     //en una clase se permiten metodos 
     //con el mismo nombre pero
     //con diferente firma
+
+    
 
 
 }

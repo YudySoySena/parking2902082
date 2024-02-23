@@ -11,4 +11,17 @@ public class Carro {
     public String placa;
     public TipoVehiculo tipoVehiculo;
 
+    public Carro() {
+    
+    }
+
+    public Carro(String string, TipoVehiculo camion) {
+        this.placa = placa;
+        this.tipoVehiculo = camion;
+    }
+
+  
+
+    
+
 }
