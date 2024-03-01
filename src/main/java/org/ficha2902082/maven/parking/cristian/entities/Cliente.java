@@ -10,8 +10,9 @@ public class Cliente {
     public TipoDocumento tipoDocumento;
     public Long numeroDocumento;
     public Long celular;
-
     public List<Carro> misCarros = 
+
+    
                     new ArrayList<Carro>();
 
     //metodo 1: añadir carro al cliente
